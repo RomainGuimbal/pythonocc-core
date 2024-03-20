@@ -38,7 +38,7 @@ from OCC.Core.TopAbs import (
 )
 from OCC.Core.TopExp import TopExp_Explorer, topexp
 from OCC.Core.TopTools import (
-    TopTools_ListOfListOfShape,
+    TopTools_ListIteratorOfListOfShape,
     TopTools_IndexedDataMapOfShapeListOfShape,
 )
 from OCC.Core.TopoDS import (
